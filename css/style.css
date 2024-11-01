@@ -209,6 +209,9 @@ a:focus {
     background: #fdbe33;
     border-color: #fdbe33;
 }
+.cl{
+    border-radius: 2px;
+}
 
 @media (min-width: 992px) {
     .nav-bar {
