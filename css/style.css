@@ -209,9 +209,9 @@ a:focus {
     background: #fdbe33;
     border-color: #fdbe33;
 }
-.cl{
-    border-radius: 2px;
-}
+/* .cl{
+    border-radius: 
+} */
 
 @media (min-width: 992px) {
     .nav-bar {
@@ -936,31 +936,19 @@ a:focus {
     padding: 45px 0 15px 0;
 }
 
-.team-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%; /* Ensures all items stretch to full height */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional styling for better visibility */
-    padding: 20px; /* Adds spacing inside the card */
-    background-color: #ffffff; /* Background color for uniformity */
-    border-radius: 8px; /* Optional: rounded corners */
+.team .team-item {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
 }
 
-.team-img {
+.team .team-img {
+    position: relative;
+}
+
+.team .team-img img {
     width: 100%;
-    height: 250px; /* Set a consistent height for all images */
-    overflow: hidden; /* Ensures any overflow is clipped */
-    border-radius: 8px; /* Optional: rounded corners */
 }
-
-.team-img img {
-    width: 100%; /* Ensures the image takes the full width of the container */
-    height: 100%; /* Ensures the image takes the full height of the container */
-    object-fit: cover; /* Crops and centers the image to fill the container */
-    border-radius: 8px; /* Optional: rounded corners matching the container */
-}
-
 
 .team .team-text {
     position: relative;
@@ -1036,18 +1024,6 @@ a:focus {
     left: 50px;
     transition: .3s .3s;
 }
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Adds consistent spacing between cards */
-}
-
-.col-lg-3, .col-md-6 {
-    display: flex;
-    flex: 1 1 25%; /* Adjusts column width to 25% on large screens */
-    min-width: 200px; /* Sets a minimum width to keep items responsive */
-}
-
 
 
 /*******************************/
