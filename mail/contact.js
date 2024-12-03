@@ -63,7 +63,7 @@
 // $('#name').focus(function () {
 //     $('#success').html('');
 // });
-emailjs.init("YOUR_USER_ID");
+emailjs.init("n0wEie55513IFpAJD");
 
         document.getElementById("contactForm").addEventListener("submit", function (e) {
             e.preventDefault();
@@ -72,7 +72,7 @@ emailjs.init("YOUR_USER_ID");
             const message = document.getElementById("message").value;
             const subject = document.getElementById("subject").value;
 
-            emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+            emailjs.send("service_gce0gnd", "template_jjfoe2o", {
                 from_name: name,
                 from_subject: subject,
                 from_email: email,
