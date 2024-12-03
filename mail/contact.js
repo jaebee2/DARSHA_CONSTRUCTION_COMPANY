@@ -79,6 +79,7 @@ emailjs.init("n0wEie55513IFpAJD");
                 message: message,
             }).then(function () {
                 alert("Message sent!");
+                location.reload();
             }).catch(function (error) {
                 alert("Error: " + error.text);
             });
