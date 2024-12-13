@@ -984,21 +984,21 @@ a:focus {
     /* text-align: center; */
     background: #030f27;
     transition: .5s;
-    height: 80%;
+    height: fit-content;
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    align-content: start;
-    justify-content: space-around;
-    align-items: center;
     
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .team .team-text h2 {
     font-size: 20px;
     font-weight: 600;
     color: #fdbe33;
-    transition: .5s;
+    transition: .5s; 
     
 }
 
