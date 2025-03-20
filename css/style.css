@@ -606,6 +606,8 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .about .section-header {
@@ -615,6 +617,7 @@ a:focus {
 .about .about-img {
     position: relative;
     height: 100%;
+    align-self: stretch;
 }
 
 .about .about-img img {
